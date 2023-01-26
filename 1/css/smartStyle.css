@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #141f40;
+    display: grid;
+    place-items: center;
+}@media screen and (max-width: 479px) {
+    .header {
+        height: 200px;
+    }
+}
+
+nav {
+    width: 160px;
+    height: 60px;
+    background-color: #ffffff;
+    margin-left: 220px;
+}@media screen and (max-width: 479px) {
+    nav {
+        width: 60px;
+        height: 160px;
+        margin-left: 0px; 
+    }
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0;
+    line-height: 0;
+    list-style: none;
+}@media screen and (max-width: 479px) {
+    nav ul {
+        width: 60px;
+        height: 160px;
+        display: block;
+    }
+}
+
+nav ul li {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}@media screen and (max-width: 479px) {
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+.main {
+    width: 400px;
+    height: 250px;
+    display: flex;
+}@media screen and (max-width: 479px) {
+    .main {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}@media screen and (max-width: 479px) {
+    .left {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;  
+}@media screen and (max-width: 479px) {
+    .right {
+        width: 200px;
+    }
+}
+
+.right ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 40px;
+}@media screen and (max-width: 479px) {
+    .right ul {
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-left: 30px;
+    }
+}
+
+.right ul li:first-child {
+    margin-top: 0px;
+}
+
+.right ul li {
+    width: 140px;
+    height: 50px;
+    background-color: #ff863f;
+    box-sizing: border-box;
+    border: 5px solid #ffffff;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}@media screen and (max-width: 479px) {
+    .footer {
+        width: 200px;
+    }
+}
